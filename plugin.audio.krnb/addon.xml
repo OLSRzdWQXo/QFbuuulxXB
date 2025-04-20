@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="plugin.audio.krnb" version="1.0.3" name="KRNB" provider-name="onzarking1300">
+<requires>
+  <import addon="xbmc.python" version="3.0.0"/>
+  <import addon="script.module.requests"/>
+</requires>
+<extension point="xbmc.python.pluginsource" library="default.py">
+  <provides>audio</provides>
+</extension>
+<extension point="xbmc.service" library="service.py" />
+<extension point="xbmc.addon.metadata">
+  <summary lang="en"></summary>
+  <description lang="en_GB"></description>
+  <assets>
+    <icon>icon.png</icon>
+  </assets>
+</extension>
+</addon>
