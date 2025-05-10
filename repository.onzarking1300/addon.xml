@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="repository.onzarking1300" name="[COLOR grey]Onzarking1300 repository[/COLOR]" version="1.1" provider-name="onzarking1300">
+<addon id="repository.onzarking1300" name="[COLOR grey]Onzarking1300 repository[/COLOR]" version="1.0" provider-name="onzarking1300">
     <extension point="xbmc.addon.repository" name="[COLOR grey]Onzarking1300 repository[/COLOR]">
 		<dir>
 			<info compressed="false">https://raw.githubusercontent.com/OLSRzdWQXo/QFbuuulxXB/master/addons.xml</info>
