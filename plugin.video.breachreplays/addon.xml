@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.breachreplays" name="Breach Replays" version="1.0" provider-name="onzarking1300">
+  <requires>
+	  <import addon="script.module.requests" />
+	  <import addon="script.module.resolveurl" version="5.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">The developer of this addon does not host any content provided and is not affiliated with any of the content providers.</summary>
+    <description lang="en">A sports replay addon - [B]This addon is in testing, fixes are coming soon.[/B]</description>
+    <platform>all</platform>
+	<assets>
+        <icon>icon.png</icon>
+    </assets>
+  </extension>
+</addon>
