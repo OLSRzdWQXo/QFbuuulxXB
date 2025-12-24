@@ -35,7 +35,6 @@
 </extension>
 </addon>
 
-
 <addon id="plugin.video.breachreplays" name="Breach Replays" version="1.0" provider-name="onzarking1300">
   <requires>
 	  <import addon="script.module.requests" />
@@ -52,6 +51,26 @@
         <icon>icon.png</icon>
     </assets>
   </extension>
+</addon>
+
+<addon id="plugin.video.hockeyfights" version="1.2.3" name="Hockey Fights" provider-name="onzarking1300">
+	<requires>
+		<import addon="xbmc.python" version="3.0.0"/>
+		<import addon="script.module.beautifulsoup4"/>
+		<import addon="script.module.requests"/>
+		<import addon="script.module.resolveurl" version="5.1.0"/>
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="default.py">
+		<provides>video</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>Hockey Fights</summary>
+		<description></description>
+		<platform>all</platform>
+		<assets>
+			<icon>icon.png</icon>
+		</assets>
+	</extension>
 </addon>
 
 
